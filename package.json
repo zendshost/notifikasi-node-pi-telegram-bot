@@ -1,0 +1,35 @@
+{
+  "name": "notifikasi-node-pi-telegram-bot",
+  "version": "1.0.0",
+  "description": "Pi Node Network Watcher — Telegram Notification Bot untuk memantau perubahan status node Pi dari Testnet ke Mainnet.",
+  "main": "notifier.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node notifier.js",
+    "dev": "nodemon notifier.js"
+  },
+  "keywords": [
+    "pi-network",
+    "pi-node",
+    "telegram-bot",
+    "notifikasi",
+    "nodejs",
+    "monitoring",
+    "horizon-api",
+    "blockchain",
+    "raspberry-pi"
+  ],
+  "author": "zendshost",
+  "license": "MIT",
+  "homepage": "https://github.com/zendshost/notifikasi-node-pi-telegram-bot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zendshost/notifikasi-node-pi-telegram-bot.git"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
