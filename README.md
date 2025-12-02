@@ -52,7 +52,7 @@ Edit file: **`notifier.js`**
 Anda akan menemukan 3 variabel utama:
 
 ```javascript
-const NODE_URL = "http://195.88.211.69:31401/";
+const NODE_URL = "http://113.160.156.51:31401/";
 const BOT_TOKEN = "ISI_TOKEN_BOT_ANDA";
 const CHAT_ID = "ISI_CHAT_ID_ANDA";
 ```
